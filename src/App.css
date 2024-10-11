@@ -32,9 +32,11 @@ a:hover{
   flex: 0.8;
   width: 100%;
 }
+
 .routes{
   padding: 20px;
 }
+
 .nav-container{
   position: fixed;
   left: 0;
@@ -48,14 +50,19 @@ a:hover{
   background-color: #001529;
   display: flex;
   padding: 20px;
-  align-items: center;
   width: 100%;
 }
 .logo{
   margin:0 0 0 15px;
 }
+@media  (max-width: 300px){
+  .logo{
+    display: none;
+  }
+}
 .logo a{
  color: white;
+ margin-top: -10px;
 }
 .menu-control-container{
   display: none !important;
@@ -128,11 +135,13 @@ a:hover{
   }
   .home-title{
       font-size: 1.4rem !important;
+      color: var(--text-primary);
   }
   .show-more{
       font-size: 1.3rem !important;
   }
 }
+
 
 .coin-detail-container{
   margin: 30px;
@@ -146,7 +155,7 @@ a:hover{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* border-bottom: 1px solid var(--border); */
+  border-bottom: 1px solid var(--border);
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 10px;
@@ -373,18 +382,41 @@ width: 95%;
   width: 250px;
 }
 .crypto-card-container{
-
   min-height: 65vh !important;
 }
 .crypto-card{
-  width: 100%;
   min-width: 250px;
 }
 .crypto-card p{
   margin: 3px  0px;
 }
+
 .crypto-card .crypto-image{
   width:35px;
+}
+@media screen and (max-width: 690px) {
+  .crypto-card{
+    width: 100%;
+    min-width: 250px;
+  }
+  .crypto-card p{
+    font-size: 16px;
+    margin: 3px  0px;
+  }
+  .home-title{
+    font-size: 1.2rem !important;
+}
+  .show-more{
+    font-size: 1rem !important;
+}
+}
+@media screen and (max-width: 460px) {
+  .home-title{
+    font-size: 14px !important;
+}
+  .show-more{
+    font-size: 10px !important;
+}
 }
 .select-timeperiod{
   width: 250px !important;
@@ -399,3 +431,4 @@ width: 95%;
   padding: 20px;
   align-items: center;
 }
+
