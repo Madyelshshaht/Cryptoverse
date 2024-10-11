@@ -2,7 +2,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const FinanceNewsApiheader = {
-    'x-rapidapi-key': '42c742b1d5mshff7cd18abc4be25p188548jsn8134a3265b3f',
+    'x-rapidapi-key': 'ee2723fce1msh774328946bb6f72p124394jsna419501160e0',
     'x-rapidapi-host': 'real-time-finance-data.p.rapidapi.com'
 };
 

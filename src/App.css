@@ -303,7 +303,7 @@ padding: 0px 20px;
 
 .news-card{
   min-height: 300px !important;
-  display: flex;
+  /* display: flex; */
 }
 .news-image-container{
   display: flex !important;
@@ -316,7 +316,7 @@ width: 95%;
 
 .news-image-container .img{
   /* width:200px; */
-  height:150px;
+  height:200px;
 }
 .news-card p{
   color: rgba(0, 0, 0, 0.58);
@@ -373,9 +373,11 @@ width: 95%;
   width: 250px;
 }
 .crypto-card-container{
+
   min-height: 65vh !important;
 }
 .crypto-card{
+  width: 100%;
   min-width: 250px;
 }
 .crypto-card p{
